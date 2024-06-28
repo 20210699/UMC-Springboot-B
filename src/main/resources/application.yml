@@ -1,4 +1,9 @@
 spring:
+  web:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
   datasource:
     url: jdbc:mysql://localhost:3306/study
     username: root
